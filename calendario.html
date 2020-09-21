@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+        
+        }
+        
+        td{
+            border: 1px solid #D2691E;
+            text-align: right;
+            padding-left: 40px;
+            padding-bottom: 40px;
+            width: 50px;
+            height: 50px;
+        }
+
+        th {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #D2691E;
+            background-color: burlywood;
+        }
+        
+        tr:nth-child(even) {
+            background-color: PeachPuff;
+        }
+
+        #Anotacoes {
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        h2 {
+            font: 50px fantasy;
+            padding-left: 5px;
+            margin: 0;
+        }
+
+        h3 {
+            font: 30px fantasy;
+            padding-left: 5px;
+            margin: 0;
+        }
+
+        .calendar__picture {
+            position: relative;
+            height: 200px;
+            max-width: 645px;
+            padding: 20px;
+            color: #fff;
+            background: #262626 url("https://i.redd.it/33885jucffux.png") no-repeat center / cover;
+            text-shadow: 0 2px 2px rgba(#000, 0.2);
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="calendar__picture">
+        <h2> Sun's Dawn </h2>
+        <h3> 4E 168</h3>
+    </div>
+    
+    <table>
+      <tr>
+        <th>Morndas</th>
+        <th>Tirdas</th>
+        <th>Middas</th>
+        <th>Turdas</th>
+        <th>Fredas</th>
+        <th>Loredas</th>
+        <th>Sundas</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>        
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>  
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>  
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>  
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td colspan="4" id ="Anotacoes">Anotações:</td>
+      </tr>
+    </table>
+    
+</body>
+</html>
